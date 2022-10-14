@@ -7,3 +7,6 @@ if __name__ == '__main__':
 		u, v = map(int, input().split())
 		adjMat[u][v] = 1
 		adjMat[v][u] = 1
+	u, v = map(int, input().split())
+		adjMat[u][v] = 1
+		adjMat[v][u] = 1
